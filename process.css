@@ -9,7 +9,7 @@ html {
 }
 body {
     min-height: 100%;
-    background: url(qefv2-album/backgrounds/concrete.jpg) no-repeat center center fixed;
+    background: url(backgrounds/concrete.jpg) no-repeat center center fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
