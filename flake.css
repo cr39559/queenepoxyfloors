@@ -8,7 +8,7 @@ html {
     height: 100%;
 }
 body {
-    background: url(qefv2-album/backgrounds/concrete-spiral.jpg) no-repeat center center fixed;
+    background: url(backgrounds/concrete-spiral.jpg) no-repeat center center fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -189,181 +189,181 @@ body {
     border-bottom: 2px solid orange;
 }
 .flake-1 {
-    background-image: url(qefv2-album/flake-photos/IMG_0205.PNG);
+    background-image: url(flake-photos/IMG_0205.PNG);
 }
 .flake-2 {
-    background-image: url(qefv2-album/flake-photos/IMG_0206.PNG);
+    background-image: url(flake-photos/IMG_0206.PNG);
 }
 .flake-3 {
-    background-image: url(qefv2-album/flake-photos/IMG_0207.PNG);
+    background-image: url(flake-photos/IMG_0207.PNG);
 }
 .flake-4 {
-    background-image: url(qefv2-album/flake-photos/IMG_0208.PNG);
+    background-image: url(flake-photos/IMG_0208.PNG);
 }
 .flake-5 {
-    background-image: url(qefv2-album/flake-photos/IMG_0209.PNG);
+    background-image: url(flake-photos/IMG_0209.PNG);
 }
 .flake-6 {
-    background-image: url(qefv2-album/flake-photos/IMG_0210.PNG);
+    background-image: url(flake-photos/IMG_0210.PNG);
 }
 .flake-7 {
-    background-image: url(qefv2-album/flake-photos/IMG_0211.PNG);
+    background-image: url(flake-photos/IMG_0211.PNG);
 }
 .flake-8 {
-    background-image: url(qefv2-album/flake-photos/IMG_0212.PNG);
+    background-image: url(flake-photos/IMG_0212.PNG);
 }
 .flake-9 {
-    background-image: url(qefv2-album/flake-photos/IMG_0213.PNG);
+    background-image: url(flake-photos/IMG_0213.PNG);
 }
 .flake-10 {
-    background-image: url(qefv2-album/flake-photos/IMG_0214.PNG);
+    background-image: url(flake-photos/IMG_0214.PNG);
 }
 .flake-11 {
-    background-image: url(qefv2-album/flake-photos/IMG_0215.PNG);
+    background-image: url(flake-photos/IMG_0215.PNG);
 }
 .flake-12 {
-    background-image: url(qefv2-album/flake-photos/IMG_0216.PNG);
+    background-image: url(flake-photos/IMG_0216.PNG);
 }
 .flake-13 {
-    background-image: url(qefv2-album/flake-photos/IMG_0217.PNG);
+    background-image: url(flake-photos/IMG_0217.PNG);
 }
 .flake-14 {
-    background-image: url(qefv2-album/flake-photos/IMG_0218.PNG);
+    background-image: url(flake-photos/IMG_0218.PNG);
 }
 .flake-15 {
-    background-image: url(qefv2-album/flake-photos/IMG_0219.PNG);
+    background-image: url(flake-photos/IMG_0219.PNG);
 }
 .flake-16 {
-    background-image: url(qefv2-album/flake-photos/IMG_0220.PNG);
+    background-image: url(flake-photos/IMG_0220.PNG);
 }
 .flake-17 {
-    background-image: url(qefv2-album/flake-photos/IMG_0221.PNG);
+    background-image: url(flake-photos/IMG_0221.PNG);
 }
 .flake-18 {
-    background-image: url(qefv2-album/flake-photos/IMG_0222.PNG);
+    background-image: url(flake-photos/IMG_0222.PNG);
 }
 .flake-19 {
-    background-image: url(qefv2-album/flake-photos/IMG_0223.PNG);
+    background-image: url(flake-photos/IMG_0223.PNG);
 }
 .flake-20 {
-    background-image: url(qefv2-album/flake-photos/IMG_0224.PNG);
+    background-image: url(flake-photos/IMG_0224.PNG);
 }
 .flake-21 {
-    background-image: url(qefv2-album/flake-photos/IMG_0225.PNG);
+    background-image: url(flake-photos/IMG_0225.PNG);
 }
 .flake-22 {
-    background-image: url(qefv2-album/flake-photos/IMG_0226.PNG);
+    background-image: url(flake-photos/IMG_0226.PNG);
 }
 .flake-23 {
-    background-image: url(qefv2-album/flake-photos/IMG_0227.PNG);
+    background-image: url(flake-photos/IMG_0227.PNG);
 }
 .flake-24 {
-    background-image: url(qefv2-album/flake-photos/IMG_0228.PNG);
+    background-image: url(flake-photos/IMG_0228.PNG);
 }
 .flake-25 {
-    background-image: url(qefv2-album/flake-photos/IMG_0229.PNG);
+    background-image: url(flake-photos/IMG_0229.PNG);
 }
 .flake-26 {
-    background-image: url(qefv2-album/flake-photos/IMG_0230.PNG);
+    background-image: url(flake-photos/IMG_0230.PNG);
 }
 .quartz-1 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/001.JPG) center center;
+    background: url(quartz-photos/2023-06-10/001.JPG) center center;
     background-size: cover;
 }
 .quartz-2 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/002.JPG) center center;
+    background: url(quartz-photos/2023-06-10/002.JPG) center center;
     background-size: cover;
 }
 .quartz-3 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/003.JPG) center center;
+    background: url(quartz-photos/2023-06-10/003.JPG) center center;
     background-size: cover;
 }
 .quartz-4 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/004.JPG) center center;
+    background: url(quartz-photos/2023-06-10/004.JPG) center center;
     background-size: cover;
 }
 .quartz-5 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/005.JPG) center center;
+    background: url(quartz-photos/2023-06-10/005.JPG) center center;
     background-size: cover;
 }
 .quartz-6 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/006.JPG) center center;
+    background: url(quartz-photos/2023-06-10/006.JPG) center center;
     background-size: cover;
 }
 .quartz-7 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/007.JPG) center center;
+    background: url(quartz-photos/2023-06-10/007.JPG) center center;
     background-size: cover;
 }
 .quartz-8 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/008.JPG) center center;
+    background: url(quartz-photos/2023-06-10/008.JPG) center center;
     background-size: cover;
 }
 .quartz-9 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/009.JPG) center center;
+    background: url(quartz-photos/2023-06-10/009.JPG) center center;
     background-size: cover;
 }
 .quartz-10 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/010.JPG) center center;
+    background: url(quartz-photos/2023-06-10/010.JPG) center center;
     background-size: cover;
 }
 .quartz-11 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/011.JPG) center center;
+    background: url(quartz-photos/2023-06-10/011.JPG) center center;
     background-size: cover;
 }
 .quartz-12 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/012.JPG) center center;
+    background: url(quartz-photos/2023-06-10/012.JPG) center center;
     background-size: cover;
 }
 .quartz-13 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/013.JPG) center center;
+    background: url(quartz-photos/2023-06-10/013.JPG) center center;
     background-size: cover;
 }
 .quartz-14 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/014.JPG) center center;
+    background: url(quartz-photos/2023-06-10/014.JPG) center center;
     background-size: cover;
 }
 .quartz-15 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/015.JPG) center center;
+    background: url(quartz-photos/2023-06-10/015.JPG) center center;
     background-size: cover;
 }
 .quartz-16 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/016.JPG) center center;
+    background: url(quartz-photos/2023-06-10/016.JPG) center center;
     background-size: cover;
 }
 .quartz-17 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/017.JPG) center center;
+    background: url(quartz-photos/2023-06-10/017.JPG) center center;
     background-size: cover;
 }
 .quartz-18 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/018.JPG) center center;
+    background: url(quartz-photos/2023-06-10/018.JPG) center center;
     background-size: cover;
 }
 .quartz-19 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/019.JPG) center center;
+    background: url(quartz-photos/2023-06-10/019.JPG) center center;
     background-size: cover;
 }
 .quartz-20 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/020.JPG) center center;
+    background: url(quartz-photos/2023-06-10/020.JPG) center center;
     background-size: cover;
 }
 .quartz-21 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/021.JPG) center center;
+    background: url(quartz-photos/2023-06-10/021.JPG) center center;
     background-size: cover;
 }
 .quartz-22 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/022.JPG) center center;
+    background: url(quartz-photos/2023-06-10/022.JPG) center center;
     background-size: cover;
 }
 .quartz-23 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/023.JPG) center center;
+    background: url(quartz-photos/2023-06-10/023.JPG) center center;
     background-size: cover;
 }
 .quartz-24 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/024.JPG) center center;
+    background: url(quartz-photos/2023-06-10/024.JPG) center center;
     background-size: cover;
 }
 .quartz-25 {
-    background: url(qefv2-album/quartz-photos/2023-06-10/025.JPG) center center;
+    background: url(quartz-photos/2023-06-10/025.JPG) center center;
     background-size: cover;
 }
 .top {
