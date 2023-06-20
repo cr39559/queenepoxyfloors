@@ -8,7 +8,7 @@ html {
     height: 100%;
 }
 body {
-    background: url(qefv2-album/backgrounds/epoxy-background.jpg) no-repeat center center fixed;
+    background: url(backgrounds/epoxy-background.jpg) no-repeat center center fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
