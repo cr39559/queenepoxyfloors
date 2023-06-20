@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html {
+    height: 100%;
+}
+body {
+    background: url(qefv2-album/backgrounds/black-sand.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.nav-bar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+.brand
+{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+.brand a {
+    color: orange;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+}
+.nav-bar-links ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.nav-bar-links li
+{
+    list-style: none;
+}
+.nav-bar-links li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+.nav-bar-links li:hover
+{
+    background-color: orange;
+}
+.toggle-button
+{
+    position: absolute;
+    top: 0.7rem;
+    right: 0.1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar
+{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+@media (max-width: 884px)
+{
+    .toggle-button
+    {
+        display: flex;
+    }
+    .nav-bar-links
+    {
+        display: none;
+        width: 100%;
+    }
+    .nav-bar
+    {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-bar-links ul
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-bar-links li
+    {
+        text-align: center;
+    }
+    .nav-bar-links a
+    {
+        padding: 0.5rem 1rem;
+    }
+    .nav-bar-links.active
+    {
+        display: flex;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .buttons a {
+        background-color: orange;
+    }
+    .additional-content {
+        display: flex;
+        flex-flow: column wrap;
+        text-align: center;
+    }
+    .content-left {
+        display: flex;
+        flex-direction: row;
+    }
+    .content-right {
+        display: flex;
+        flex-direction: row;
+    }
+    .preamble-container {
+        flex-wrap: wrap !important;
+    }
+    .main-img {
+        max-width: 80vw;
+    }
+}
+.content {
+    animation-name: comeintop;
+    animation-duration: 1s;
+    background: none;
+    border: 2px solid none;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.8);
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+@keyframes comeintop {
+    from {transform: translateY(-200%);}
+    to {transform: translatey(0);}
+}
+.page-text p {
+    font-size: 1.25rem;
+}
+.page-text h1 {
+    font-size: 3rem;
+}
+.buttons {
+    word-spacing: 3rem;
+    font-size: 1.25rem;
+    padding: 1rem;
+    text-align: center;
+}
+.buttons a {
+    padding: .1rem 1rem .1rem 1rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+.buttons a:hover {
+    background-color: orange;
+    color: white;
+    border: white;
+    transition: .5s;
+}
+.buttons a:not(:hover) {
+    transition: .5s;
+}
+#gallery-link {
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+}
+.logo {
+    text-align: center;
+    color: orange;
+    font-size: 8vw;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.main-img {
+    border: 2px solid none;
+    border-radius: 30px;
+    background: url(qefv2-album/gallery-photos/IMG_0178.PNG) center center;
+    background-size: cover;
+    margin: 1rem;
+    height: 20rem;
+    width: 40rem;
+}
+.preamble-container {
+    animation-name: preamble;
+    animation-duration: 1.75s;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: none;
+    border: 2px solid none;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    flex-basis: 100%;
+    box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.8);
+    margin: 0 1rem 0 1rem;
+}
+@keyframes preamble {
+    from {transform: translatex(-200%);}
+    to {transform: translatex(0);}
+}
+.preamble-container h1 {
+    padding-top: 1rem;
+    margin: 0 1rem 0 1rem;
+    text-align: center;
+}
+.preamble-container p {
+    margin: 1rem;
+}
+.content-container-2 {
+    margin: 1rem 1rem 0 1rem;
+}
+.content-container-3 {
+    margin: 0 1rem 0 1rem;
+}
+.content-container-4 {
+    margin: 0 1rem 0 1rem;
+}
+.additional-content {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+.content-left-1 {
+    animation-name: comeinleft;
+    animation-duration: 2s;
+    height: 75vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: url(qefv2-album/index-photos/epoxy.JPG) center center;
+    background-size: cover;
+    border: 2px solid none;
+    border-radius: 30px;
+    flex-basis: 100%;
+    box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.8);
+}
+.content-left-2 {
+    animation-name: comeinleft;
+    animation-duration: 2s;
+    height: 75vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: url(qefv2-album/index-photos/stain.JPG) center center;
+    background-size: cover;
+    border: 2px solid none;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    flex-basis: 100%;
+    box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.8);
+}
+.content-left-3 {
+    animation-name: comeinleft;
+    animation-duration: 2s;
+    height: 75vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: url(qefv2-album/index-photos/metallic.JPG) center center;
+    background-size: cover;
+    border: 2px solid none;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    flex-basis: 100%;
+    box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.8);
+}
+@keyframes comeinleft {
+    from {transform: translateX(-200%);}
+    to {transform: translatex(0);}
+}
+.content-left-1 p {
+    margin: 1rem;
+}
+.content-left-1 h1 {
+    text-align: center;
+    padding: 1rem;
+}
+.content-left-2 p {
+    margin: 1rem;
+}
+.content-left-2 h1 {
+    text-align: center;
+    padding: 1rem;
+}
+.content-left-3 p {
+    margin: 1rem;
+}
+.content-left-3 h1 {
+    text-align: center;
+    padding: 1rem;
+}
+.content-right-1 {
+    animation-name: comeinright;
+    animation-duration: 2.75s;
+    height: 75vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: url(qefv2-album/index-photos/flake.JPG) center center;
+    background-size: cover;
+    border: 2px solid none;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    flex-basis: 100%;
+    box-shadow: 10px 5px 10px 10px rgba(0, 0, 0, 0.8);
+}
+.content-right-2 {
+    animation-name: comeinright;
+    animation-duration: 2.75s;
+    height: 75vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: url(qefv2-album/overlay-photos/IMG_E0286.JPG) center center;
+    background-size: cover;
+    border: 2px solid none;
+    border-radius: 30px;
+    flex-basis: 100%;
+    box-shadow: 10px 5px 10px 10px rgba(0, 0, 0, 0.8);
+}
+.content-right-3 {
+    animation-name: comeinright;
+    animation-duration: 2.75s;
+    height: 75vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: none;
+    border: 2px solid none;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    flex-basis: 100%;
+    box-shadow: 10px 5px 10px 10px rgba(0, 0, 0, 0.8);
+}
+@keyframes comeinright {
+    from {transform: translateX(200%);}
+    to {transform: translate(0);}
+}
+.content-right-1 p {
+    margin: 1rem;
+}
+.content-right-1 h1 {
+    padding-top: 1rem;
+    text-align: center;
+}
+.content-right-2 p {
+    margin: 1rem;
+}
+.content-right-2 h1 {
+    padding-top: 1rem;
+    text-align: center;
+}
+.content-right-3 p {
+    margin: 1rem;
+}
+.content-right-3 h1 {
+    padding-top: 1rem;
+    text-align: center;
+}
+.top {
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+}
+.top a {
+    background-color: #333;
+    border: 1px solid none;
+    border-radius: 10px;
+    color: orange;
+    text-decoration: none;
+    font-size: 3rem;
+}
+#footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    color: white;
+}
+.column-1 {
+    margin: 1rem;
+    padding: 1rem;
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.column-1 ul {
+    list-style-type: none;
+}
+.column-2 {
+    margin: 1rem;
+    padding: 1rem;
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.column-2 ul {
+    list-style-type: none;
+}
+.column-2 a {
+    text-decoration: none;
+}
+#fb {
+    color: #4267B2;
+    font-weight: bold;
+}
+#ig {
+    color: orange;
+    font-weight: bold;
+}

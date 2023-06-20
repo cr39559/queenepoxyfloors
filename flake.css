@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html {
+    height: 100%;
+}
+body {
+    background: url(qefv2-album/backgrounds/concrete-spiral.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.nav-bar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+.brand
+{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+.brand a {
+    color: orange;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+}
+.nav-bar-links ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.nav-bar-links li
+{
+    list-style: none;
+}
+.nav-bar-links li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+.nav-bar-links li:hover
+{
+    background-color: orange;
+}
+.toggle-button
+{
+    position: absolute;
+    top: 0.7rem;
+    right: 0.1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar
+{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+@media (max-width: 884px)
+{
+    .toggle-button
+    {
+        display: flex;
+    }
+    .nav-bar-links
+    {
+        display: none;
+        width: 100%;
+    }
+    .nav-bar
+    {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-bar-links ul
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-bar-links li
+    {
+        text-align: center;
+    }
+    .nav-bar-links a
+    {
+        padding: 0.5rem 1rem;
+    }
+    .nav-bar-links.active
+    {
+        display: flex;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .buttons a {
+        background-color: orange;
+    }
+}
+.top-container {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background: #333;
+    border: 2px solid orange;
+    margin: 0 0 1rem 0;
+}
+.intro {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background: #333;
+    border: 2px solid orange;
+    border-bottom: none;
+}
+.addons {
+    padding: 1rem;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background: #333;
+    border: 2px solid orange;
+    margin: 1rem 0 1rem 0;
+}
+.btm {
+    padding: 1rem;
+}
+.top-text {
+    padding: 1rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border: 2px solid orange;
+    border-radius: 15px;
+}
+@media (hover :hover) {
+    .card:hover {
+        box-shadow: 0 2.5px 10px 10px white;
+        transition: all 750ms ease;
+    }
+    .card:not(:hover) {
+        transition: all 750ms ease;
+    }
+}
+.card-image {
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    border-bottom: 2px solid orange;
+}
+.flake-1 {
+    background-image: url(qefv2-album/flake-photos/IMG_0205.PNG);
+}
+.flake-2 {
+    background-image: url(qefv2-album/flake-photos/IMG_0206.PNG);
+}
+.flake-3 {
+    background-image: url(qefv2-album/flake-photos/IMG_0207.PNG);
+}
+.flake-4 {
+    background-image: url(qefv2-album/flake-photos/IMG_0208.PNG);
+}
+.flake-5 {
+    background-image: url(qefv2-album/flake-photos/IMG_0209.PNG);
+}
+.flake-6 {
+    background-image: url(qefv2-album/flake-photos/IMG_0210.PNG);
+}
+.flake-7 {
+    background-image: url(qefv2-album/flake-photos/IMG_0211.PNG);
+}
+.flake-8 {
+    background-image: url(qefv2-album/flake-photos/IMG_0212.PNG);
+}
+.flake-9 {
+    background-image: url(qefv2-album/flake-photos/IMG_0213.PNG);
+}
+.flake-10 {
+    background-image: url(qefv2-album/flake-photos/IMG_0214.PNG);
+}
+.flake-11 {
+    background-image: url(qefv2-album/flake-photos/IMG_0215.PNG);
+}
+.flake-12 {
+    background-image: url(qefv2-album/flake-photos/IMG_0216.PNG);
+}
+.flake-13 {
+    background-image: url(qefv2-album/flake-photos/IMG_0217.PNG);
+}
+.flake-14 {
+    background-image: url(qefv2-album/flake-photos/IMG_0218.PNG);
+}
+.flake-15 {
+    background-image: url(qefv2-album/flake-photos/IMG_0219.PNG);
+}
+.flake-16 {
+    background-image: url(qefv2-album/flake-photos/IMG_0220.PNG);
+}
+.flake-17 {
+    background-image: url(qefv2-album/flake-photos/IMG_0221.PNG);
+}
+.flake-18 {
+    background-image: url(qefv2-album/flake-photos/IMG_0222.PNG);
+}
+.flake-19 {
+    background-image: url(qefv2-album/flake-photos/IMG_0223.PNG);
+}
+.flake-20 {
+    background-image: url(qefv2-album/flake-photos/IMG_0224.PNG);
+}
+.flake-21 {
+    background-image: url(qefv2-album/flake-photos/IMG_0225.PNG);
+}
+.flake-22 {
+    background-image: url(qefv2-album/flake-photos/IMG_0226.PNG);
+}
+.flake-23 {
+    background-image: url(qefv2-album/flake-photos/IMG_0227.PNG);
+}
+.flake-24 {
+    background-image: url(qefv2-album/flake-photos/IMG_0228.PNG);
+}
+.flake-25 {
+    background-image: url(qefv2-album/flake-photos/IMG_0229.PNG);
+}
+.flake-26 {
+    background-image: url(qefv2-album/flake-photos/IMG_0230.PNG);
+}
+.quartz-1 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/001.JPG) center center;
+    background-size: cover;
+}
+.quartz-2 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/002.JPG) center center;
+    background-size: cover;
+}
+.quartz-3 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/003.JPG) center center;
+    background-size: cover;
+}
+.quartz-4 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/004.JPG) center center;
+    background-size: cover;
+}
+.quartz-5 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/005.JPG) center center;
+    background-size: cover;
+}
+.quartz-6 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/006.JPG) center center;
+    background-size: cover;
+}
+.quartz-7 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/007.JPG) center center;
+    background-size: cover;
+}
+.quartz-8 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/008.JPG) center center;
+    background-size: cover;
+}
+.quartz-9 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/009.JPG) center center;
+    background-size: cover;
+}
+.quartz-10 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/010.JPG) center center;
+    background-size: cover;
+}
+.quartz-11 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/011.JPG) center center;
+    background-size: cover;
+}
+.quartz-12 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/012.JPG) center center;
+    background-size: cover;
+}
+.quartz-13 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/013.JPG) center center;
+    background-size: cover;
+}
+.quartz-14 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/014.JPG) center center;
+    background-size: cover;
+}
+.quartz-15 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/015.JPG) center center;
+    background-size: cover;
+}
+.quartz-16 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/016.JPG) center center;
+    background-size: cover;
+}
+.quartz-17 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/017.JPG) center center;
+    background-size: cover;
+}
+.quartz-18 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/018.JPG) center center;
+    background-size: cover;
+}
+.quartz-19 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/019.JPG) center center;
+    background-size: cover;
+}
+.quartz-20 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/020.JPG) center center;
+    background-size: cover;
+}
+.quartz-21 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/021.JPG) center center;
+    background-size: cover;
+}
+.quartz-22 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/022.JPG) center center;
+    background-size: cover;
+}
+.quartz-23 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/023.JPG) center center;
+    background-size: cover;
+}
+.quartz-24 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/024.JPG) center center;
+    background-size: cover;
+}
+.quartz-25 {
+    background: url(qefv2-album/quartz-photos/2023-06-10/025.JPG) center center;
+    background-size: cover;
+}
+.top {
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+}
+.top a {
+    background-color: #333;
+    border: 1px solid none;
+    border-radius: 10px;
+    color: orange;
+    text-decoration: none;
+    font-size: 3rem;
+}
+#footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    color: white;
+}
+.column-1 {
+    margin: 1rem;
+    padding: 1rem;
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.column-1 ul {
+    list-style-type: none;
+}
+.column-2 {
+    margin: 1rem;
+    padding: 1rem;
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.column-2 ul {
+    list-style-type: none;
+}
+.column-2 a {
+    text-decoration: none;
+    color: white;
+}
+#fb {
+    color: #4267B2;
+    font-weight: bold;
+}
+#ig {
+    color: orange;
+    font-weight: bold;
+}
