@@ -8,7 +8,7 @@ html {
     height: 100%;
 }
 body {
-    background: url(qefv2-album/backgrounds/black-sand.jpg) no-repeat center center fixed;
+    background: url(backgrounds/black-sand.jpg) no-repeat center center fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -202,7 +202,7 @@ body {
 .main-img {
     border: 2px solid none;
     border-radius: 30px;
-    background: url(qefv2-album/gallery-photos/IMG_0178.PNG) center center;
+    background: url(gallery-photos/IMG_0178.PNG) center center;
     background-size: cover;
     margin: 1rem;
     height: 20rem;
@@ -258,7 +258,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    background: url(qefv2-album/index-photos/epoxy.JPG) center center;
+    background: url(index-photos/epoxy.JPG) center center;
     background-size: cover;
     border: 2px solid none;
     border-radius: 30px;
@@ -272,7 +272,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    background: url(qefv2-album/index-photos/stain.JPG) center center;
+    background: url(index-photos/stain.JPG) center center;
     background-size: cover;
     border: 2px solid none;
     border-radius: 30px;
@@ -287,7 +287,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    background: url(qefv2-album/index-photos/metallic.JPG) center center;
+    background: url(index-photos/metallic.JPG) center center;
     background-size: cover;
     border: 2px solid none;
     border-radius: 30px;
@@ -327,7 +327,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    background: url(qefv2-album/index-photos/flake.JPG) center center;
+    background: url(index-photos/flake.JPG) center center;
     background-size: cover;
     border: 2px solid none;
     border-radius: 30px;
@@ -342,7 +342,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    background: url(qefv2-album/overlay-photos/IMG_E0286.JPG) center center;
+    background: url(overlay-photos/IMG_E0286.JPG) center center;
     background-size: cover;
     border: 2px solid none;
     border-radius: 30px;
